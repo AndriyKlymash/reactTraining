@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Cars from "./components/cars/cars";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Cars
+                image={'https://images.drive.ru/i/0/5f858717ec05c4970d000056.jpg'}
+                description={'Audi Q8 (укр. Ауді Кью 8) — купеподібний кросовер виробництва компанії Audi, що зявиться на ринку в 2018 році.'}
+            />
+        </div>
+    );
 }
 
 export default App;
