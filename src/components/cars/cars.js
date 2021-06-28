@@ -1,9 +1,14 @@
 import './cars.css'
 
 function Cars(props) {
+
+    let {model, image, description, power} = props;
+
     return <div>
-        <img src={props.image} />
-        <p>{props.description}</p>
+        <h2>{model}</h2>
+        <p>Power: {power}</p>
+        <img src={image}/>
+        <p>{description}</p>
     </div>
 }
 
