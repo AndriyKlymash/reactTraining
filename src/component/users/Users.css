@@ -1,0 +1,12 @@
+.mainBox{
+    display: flex;
+}
+
+.allUsers{
+    background-color: silver;
+    border: 2px solid black;
+}
+
+.chosenUser{
+    border: 2px solid red;
+}
